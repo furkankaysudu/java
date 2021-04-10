@@ -3,8 +3,10 @@ package com.company;
 public class animal {
     private String name;
     private int size;
+    private boolean brain;
+    private int weight;
 
-    public animal(String name, int size, int brain, int weight) {
+    public animal(String name, int size, boolean brain, int weight) {
         this.name = name;
         this.size = size;
         this.brain = brain;
